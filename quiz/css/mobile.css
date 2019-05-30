@@ -1,0 +1,818 @@
+@media (max-width: 480px) {
+	.header{
+		position: fixed;
+		width: 100%;
+		z-index: 999;
+	}
+	.main-screen{
+		padding-top: 65px;
+	}
+	.header-menu{
+		display: none;
+	}
+	.header-btn{
+		float: left;
+		margin-left: 20px;
+	}
+	.menu{
+		padding: 0;
+    	text-align: center;
+		display: inline-block;
+	}
+	.burg{
+		display: block;
+		margin-right: 20px;
+	}
+	.show{
+		display: flex;
+    	justify-content: center;
+    	width: 100%;
+    	margin-top: 0;
+    	padding: 0;
+	}
+	.menu li {
+	    margin-right: 0px;
+	    margin-left: 15px;
+		display: inline-block;
+	}
+	.menu li:first-child{
+		margin-left: 0;
+	}
+	.menu-btn{
+		font-size: 14px;
+	}
+	.screen-title{
+		margin-top: 50px;
+	}
+	.screen-title h1{
+		font-size: 31px;
+		text-align: center;
+	}
+	.screen-text p{
+		text-align: center;
+	}
+	.screen-btn{
+		text-align: center;
+	}
+	.screen-social{
+		margin-top: 50px;
+		text-align: center;
+    	margin-left: -20px;
+	}
+	.screen-btn .about{
+		display: none;
+	}
+	.screen-btn .game{
+		font-size: 20px;
+	}
+	.next-game-title{
+		text-align: center;
+	}
+	.game-box{
+		display: block;
+		margin: 0 auto;
+	}
+	.game-box h4{
+		font-size: 18px;
+	}
+	.game-box{
+		width: 276px;
+	}
+	.game-box .link-box{
+		padding-left: 24px;
+		font-size: 13px;
+	}
+	.game-box .place i{
+		font-size: 15px;
+	}
+	.game-box .box{
+		font-size: 11px;
+	}
+	.game-box .rec i{
+		font-size: 15px;
+
+	}
+	.game-box .rec{
+		padding-right: 30px;
+	}
+	.game-box .rec i{
+		top: 4px;
+	}
+	.next-game-title a{
+		margin-bottom: 20px;
+	}
+	.what-quiz-box{
+		margin-bottom: 40px;
+	}
+	.what-quiz-title h1{
+		font-size: 36px;
+	}
+	.how-play-title h1{
+		font-size: 32px;
+	}
+	.how-play-text{
+		font-size: 12px;
+	}
+	.want-play{
+		margin-left: 0;
+	}
+	.questions-container:after{
+		content: none;
+	}
+	.questions-title{
+		text-align: center;
+	}
+	.questions-title h4{
+		font-size: 26px;
+	}
+	.questions-number{
+		text-align: center;
+	}
+	.questions-number a{
+		font-size: 26px;
+	}
+	.questions-number p{
+		font-size: 26px;
+	}
+	.want-play{
+		text-align: center;
+		padding-bottom: 40px;
+	}
+	.want-play a{
+		font-size: 18px;
+	}
+	.footer-menu{
+		display: none;
+	}
+	.footer-social{
+		float: none;
+		text-align: center;
+	}
+	.photogame h1{
+		font-size: 29px;
+		text-align: center;
+	}
+	.lastnews-title h2{
+		font-size: 22px;
+		text-align: center;
+	}
+	.slider-box-title h4{
+		font-size: 16px;
+	}
+	.slider-box-title p{
+		font-size: 10px;
+	}
+	.slider-arrows{
+		margin-left: 0;
+	    font-size: 10px;
+	    justify-content: center;
+	    margin-top: 4px;
+	}
+	.slider-all-photo a{
+		font-size: 10px;
+	}
+	.slider-box {
+	    bottom: -65px;
+	    width: 100%;
+	    left: 0;
+	}
+	.slider-all-photo{
+		top: 22px;
+	}
+	.lastnews{
+		margin-top: 50px;
+	}
+	.lastnews-box-info p{
+		font-size: 14px;
+		margin-bottom: 10px;
+	}
+	.lastnews-box-info span{
+		font-size: 10px;
+	}
+	.lastnews-box-info a{
+		font-size: 10px;
+	}
+	.next-game{
+		padding-bottom: 20px;
+	}
+	.how-play__first{
+		padding-left: 100px;
+	}
+	.how-play__second{
+		padding-right: 100px;
+	}
+	.how-play-1{
+		width: 85px;
+	}
+	.how-play-2{
+		width: 85px;
+	}
+	.how-play-3{
+		width: 85px;
+	}
+	.how-play-4{
+		width: 85px;
+	}
+	.contacts-info{
+		text-align: center;
+		margin-top: 130px;
+	}
+	.contacts-info-title h1{
+		font-size: 36px;
+	}
+	.contacts-info-addreses i{
+		font-size: 32px;
+	}
+	.contacts-info-addreses p{
+		font-size: 18px;
+	}
+	.contacts-info-phone{
+		display: flex;
+		justify-content: center;
+	}
+	.contacts-info-mail{
+		display: flex;
+		justify-content: center;
+	}
+	.contacts-info-map{
+		display: flex;
+		justify-content: center;
+	}
+	.contacts-form-title h1{
+		text-align: center;
+		font-size: 36px;
+	}
+	.news-title{
+		padding-top: 100px;
+	}
+	.news-grid a{
+		margin-top: 20px;
+	}
+	.news-grid-first-top{
+		margin-top: 0 !important;
+	}
+	.news-grid-first {
+		grid-template-columns: auto;
+	}
+	.news-grid-second {
+		grid-template-columns: auto;
+	}
+	.news-grid-main .grid-img{
+    	width: 100%;
+    	height: 230px;
+    }
+    .news-grid-first .grid-img, .news-grid-second .grid-img{
+    	background: url(../img/NEWS-LARGE.png);
+    	width: 100%;
+    	height: 230px;
+    	background-position: center center;
+   		background-repeat: no-repeat;
+    	background-size: cover;
+    	margin-bottom: 20px;
+    }
+    .news-grid-first h3, .news-grid-second h3{
+    	font-size: 24px;
+    }
+	.timetable-headline{
+		padding-top: 100px;
+	}
+	.timetable-headline h1{
+		font-size: 33px;
+	}
+	.timetable-link h4{
+		font-size: 16px;
+	}
+	.timetable-link h2{
+		font-size: 26px;
+		padding: 10px 0;
+	}
+	.timetable-link .link-box{
+		margin-top: 10px;
+	}
+	.timetable-link .link-btn{
+		display: block;
+		margin-top: 10px;
+		float: left;
+	}
+	.rating-headline{
+		padding-top: 100px;
+	}
+	.rating-headline h1{
+		font-size: 31px;
+	}
+	.rating-wrapper h4{
+		font-size: 14px;
+	}
+	.rating-box-header p{
+		font-size: 10px;
+	}
+	.rating-box-header i{
+		display: none;
+	}
+	.rating-box-text p{
+		font-size: 11px;
+		margin-bottom: 0;
+	}
+	.rating-btn{
+		font-size: 14px;
+	}
+	.article-headline{
+		padding-top: 100px;
+		font-size: 30px;
+	}
+	.article-text{
+		font-size: 16px;
+	}
+	.article-img{
+		height: 330px;
+	}
+	.article-back-news{
+		font-size: 12px;
+	}
+	.article-social{
+		margin-top: -15px;
+	}
+	.article-social a{
+		margin-left: -5px;
+	}
+	.timetable-link span i{
+		font-size: 18px;
+	}
+	.timetable-link span{
+		font-size: 14px;
+	}
+	.timetable-link h2{
+		font-size: 22px;
+	}
+	.menu li a:hover:before {
+	    width: 0%;
+	}
+	.menu li .active-menu:before {
+	    width: 0;
+	}
+	.registration__select{
+		width: 100%;
+	}
+	.registration__select__header h3{
+		font-size: 13px;
+	}
+	.registration__select__text p{
+		text-align: center;
+    	padding: 40px 0 0 0;
+	}
+	.registation__game{
+		width: 100%;
+		font-size: 12px;
+	}
+	.regwithoutteam__link{
+		font-size: 14px;
+	}
+	.regteam__link{
+		font-size: 14px;
+	}
+	.registration__select__text{
+		padding: 0 15px;
+	}
+	.registration__select__text input{
+		font-size: 12px;
+	}
+	.registration h1{
+		font-size: 36px;
+		margin-top: 100px;
+	}
+	.registration__select button{
+		font-size: 12px;
+	}
+	.registration__complete{
+		width: 100%;
+		padding: 50px;
+	}
+	.registration__complete h4{
+		font-size: 21px;
+	}
+	.registration__complete i{
+		font-size: 40px;
+	}
+	.aboutgame-headline{
+		padding-top: 100px;
+	}
+	.aboutgame__icon{
+		display: none;
+	}
+	.aboutgame__text h2{
+		font-size: 17px;
+	}
+	.aboutgame__text h3{
+		font-size: 24px;
+	}
+	.aboutgame__text p{
+		font-size: 14px;
+	}
+}
+
+@media (min-width: 480px) and (max-width: 768px){
+	.header{
+		position: fixed;
+		width: 100%;
+		z-index: 999;
+	}
+	.main-screen{
+		padding-top: 65px;
+	}
+	.header-menu{
+		display: none;
+	}
+	.header-btn{
+		float: left;
+		margin-left: 23%;
+	}
+	.menu{
+		padding: 0;
+    	text-align: center;
+		display: inline-block;
+	}
+	.burg{
+		display: block;
+		margin-right: 20px;
+	}
+	.show{
+		display: flex;
+    	justify-content: center;
+    	width: 100%;
+    	margin-top: 0;
+    	padding: 0;
+	}
+	.menu li {
+	    margin-right: 0px;
+	    margin-left: 35px;
+		display: inline-block;
+	}
+	.menu li:first-child{
+		margin-left: 0;
+	}
+	.next-game-title{
+		text-align: center;
+	}
+
+	.screen-title{
+		margin-top: 80px;
+	}
+	.screen-btn .about{
+		display: none;
+	}
+	.screen-social{
+		margin-top: 50px;
+		text-align: center;
+    	margin-left: -20px;
+	}
+	.game-box{
+		display: block;
+		margin: 0 auto;
+		width: 350px;
+	}
+	.next-game-title a{
+		margin-bottom: 20px;
+	}
+	.what-quiz-box{
+		margin-bottom: 40px;
+	}
+	.what-quiz-title h1{
+		font-size: 50px;
+	}
+	.how-play-title h1{
+		font-size: 42px;
+	}
+	.how-play-text{
+		font-size: 15px;
+	}
+	.screen-title h1{
+		font-size: 38px;
+		text-align: center;
+	}
+	.screen-text p{
+		text-align: center;
+	}
+	.screen-btn{
+		text-align: center;
+	}
+	.want-play{
+		margin-left: 0;
+	}
+	.questions-container:after{
+		content: none;
+	}
+	.questions-title{
+		text-align: center;
+	}
+	.questions-number{
+		text-align: center;
+	}
+	.questions-title h4
+	.questions-number p{
+		font-size: 27px;
+	}
+	.want-play{
+		text-align: center;
+		padding-bottom: 40px;
+	}
+	.footer-menu{
+		display: none;
+	}
+	.footer-social{
+		float: none;
+		text-align: center;
+	}
+	.photogame h1{
+		font-size: 45px;
+		text-align: center;
+	}
+	.slider-box {
+	    bottom: -65px;
+	    width: 100%;
+	    left: 0;
+	}
+	.slider-box-title h4{
+		font-size: 18px;
+	}
+	.slider-arrows{
+		margin-left: 30px;
+	}
+	.lastnews-title{
+		margin-top: 50px;
+	}
+	.lastnews-box-info a{
+		margin-right: 20px;
+	}
+	.slider-all-photo{
+		top: 30px;
+	}
+	.next-game{
+		padding-bottom: 20px;
+	}
+	.contacts-info{
+		text-align: center;
+		margin-top: 130px;
+	}
+	.contacts-info-phone{
+		display: flex;
+		justify-content: center;
+	}
+	.contacts-info-mail{
+		display: flex;
+		justify-content: center;
+	}
+	.contacts-info-map{
+		display: flex;
+		justify-content: center;
+	}
+	.contacts-form-title h1{
+		text-align: center;
+	}
+	.news-title{
+		padding-top: 100px;
+	}
+	.news-grid a{
+		margin-top: 20px;
+	}
+	.news-grid-first-top{
+		margin-top: 0 !important;
+	}
+	.timetable-headline{
+		padding-top: 100px;
+	}
+	.rating-headline{
+		padding-top: 100px;
+	}
+	.rating-box-header p{
+		font-size: 13px;
+	}
+	.rating-box-header i{
+		display: none;
+	}
+	.rating-box-text p{
+		font-size: 13px;
+	}
+	.rating-btn{
+		font-size: 14px;
+	}
+	.article-headline{
+		padding-top: 100px;
+		font-size: 30px;
+	}
+	.article-text{
+		font-size: 16px;
+	}
+	.registration h1{
+		margin-top: 100px;
+	}
+	.registration__select{
+		width: 100%;
+	}
+	.registration__select__header h3{
+		font-size: 20px;
+	}
+	.registration__select__text p{
+   		padding: 40px 0 0 0;
+   		text-align: center;
+	}
+	.registration__complete{
+		width: 100%;
+	}
+	.registration__complete h4{
+		font-size: 22px;
+	}
+	.registration__complete p{
+		font-size: 14px;
+	}
+	.aboutgame-headline{
+		padding-top: 100px;
+	}
+	.aboutgame__icon{
+		display: none;
+	}
+
+}
+@media (min-width: 768px) and (max-width: 992px){ 
+	.header-menu{
+		display: none;
+	}
+	.header-btn{
+		float: left;
+		margin-left: 30%;
+	}
+	.menu{
+		padding: 0;
+		padding-left: 60px;
+	}
+	.burg{
+		display: block;
+		margin-right: 20px;
+	}
+	.show{
+		display: flex;
+	    justify-content: center;
+	    width: 100%;
+	    margin: 0;
+    	padding: 0;
+	}
+	.menu li {
+	    margin-right: 20px;
+	}
+	.screen-title{
+		margin-top: 80px;
+	}
+	.screen-title h1{
+		font-size: 32px;
+	}
+	.screen-title{
+		font-size: 20px;
+	}
+	.screen-btn .game{
+		font-size: 16px;
+	}
+	.what-quiz-box{
+		width: 220px;
+	}
+	.what-quiz-box p{
+		font-size: 11px;
+		text-align: center;
+	}
+	.what-quiz-box:last-child{
+		margin-top: 40px;
+	}
+	.want-play{
+		margin-left: 0;
+	}
+	.questions-container:after{
+		content: none;
+	}
+	.questions-title{
+		text-align: center;
+	}
+	.questions-number{
+		text-align: center;
+	}
+	.want-play{
+		text-align: center;
+		padding-bottom: 40px;
+	}
+	.footer-menu{
+		display: none;
+	}
+	.footer-social{
+		float: none;
+		text-align: center;
+	}
+	.footer-social a:first-child{
+		margin-left: 0;
+	}
+	.screen-btn .about{
+		display: none;
+	}
+	.game-box h4{
+		font-size: 22px;
+	}
+	.game-box .box{
+		font-size: 14px;
+	}
+	.next-game-title h3{
+		font-size: 28px;
+	}
+	.lastnews-box-info a{
+		margin-right: 20px;
+	}
+	.contacts-info{
+		text-align: center;
+	}
+	.contacts-info-phone{
+		display: flex;
+		justify-content: center;
+	}
+	.contacts-info-mail{
+		display: flex;
+		justify-content: center;
+	}
+	.contacts-info-map{
+		display: flex;
+		justify-content: center;
+	}
+	.contacts-form-title h1{
+		text-align: center;
+	}
+	.news-grid a{
+		margin: 20px 0;
+	}
+	.news-grid-first .grid-img, .news-grid-second .grid-img {
+	    height: 190px;
+	}
+	.timetable-link{
+		display: block;
+	}
+	.timetable-link h4{
+		display: block;
+	}
+	.timetable-link h2{
+		display: block;
+	}
+	.rating-box-header i{
+		display: none;
+	}
+	.rating-box-text p{
+		font-size: 18px;
+	}
+	.aboutgame__icon{
+		display: none;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+	.screen-btn .about{
+		display: none;
+	}
+	.game-box h4{
+		font-size: 20px;
+	}
+	.game-box .box{
+		font-size: 13px;
+	}
+	.game-box .link-box{
+		font-size: 14px;
+	}
+	.next-game-title h3{
+		font-size: 28px;
+	}
+	.slider-arrows{
+		margin-left: 75px;
+	}
+	.lastnews-title h2{
+		font-size: 26px;
+	}
+	.lastnews-box-info p{
+		font-size: 12px;
+	}
+	.lastnews-box-info a{
+		float: left;
+	}
+	.lastnews{
+		margin-top: -70px;
+	}
+	.contacts-forms input[type="submit"]{
+		margin-bottom: 100px;
+	}
+	.news-grid-first h3, .news-grid-second h3 {
+	    font-family: Montserrat;
+	    font-size: 16px;
+	    font-weight: 600;
+	    margin-bottom: 10px;
+	}
+	.news-grid-first p, .news-grid-second p {
+	    font-size: 12px;
+	    margin-bottom: 13px;
+	}
+	.timetable-link .link-box{
+		font-size: 13px;
+	}
+	.rating-box-header .game-rate{
+		left: 60px;
+	}
+}

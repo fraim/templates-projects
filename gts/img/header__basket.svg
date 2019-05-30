@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26" height="28" viewBox="0 0 26 28">
+    <desc>
+        Created using Figma
+    </desc>
+    <g transform="matrix(.96552 0 0 .96552 19312.8 -1396.14)">
+        <clipPath id="a" clip-rule="evenodd">
+            <path fill="#FFF" d="M-21096 1416h1280v3492h-1280V1416z"/>
+        </clipPath>
+        <g clip-path="url(#a)">
+            <path fill="#FFF" d="M-21096 1416h1280v3492h-1280V1416z"/>
+            <clipPath id="b" clip-rule="evenodd">
+                <path fill="#FFF" d="M-21096 1416h1280v327h-1280v-327z"/>
+            </clipPath>
+            <g clip-path="url(#b)">
+                <path fill="#FFF" d="M-21096 1416h1280v327h-1280v-327z"/>
+                <clipPath id="c" clip-rule="evenodd">
+                    <path fill="#FFF" d="M-21096 1416h1280v140h-1280v-140z"/>
+                </clipPath>
+                <g clip-path="url(#c)">
+                    <path fill="#FFF" d="M-21096 1416h1280v140h-1280v-140z"/>
+                    <mask id="e">
+                        <use fill="#fff" transform="translate(-20003 1451.2)" xlink:href="#d"/>
+                    </mask>
+                    <g mask="url(#e)">
+                        <use fill="#2D5FA3" transform="translate(-20003 1451.2)" xlink:href="#f"/>
+                    </g>
+                    <g>
+                        <use fill="#2D5FA3" transform="translate(-19994 1447)" xlink:href="#g"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <defs>
+        <path id="d" d="M.52 4.462A4 4 0 0 1 4.491 0h18.016a4 4 0 0 1 3.973 4.462l-1.839 15.8A4 4 0 0 1 20.67 23.8H6.331a4 4 0 0 1-3.973-3.538L.519 4.462z"/>
+        <path id="f" d="M2.358 20.262l-1.987.231 1.987-.23zM4.492 2h18.016v-4H4.492v4zm20.002 2.231l-1.838 15.8 3.973.462 1.838-15.8-3.973-.462zM20.67 21.8H6.331v4h14.338v-4zM4.344 20.031l-1.838-15.8-3.973.462 1.838 15.8 3.973-.462zM6.331 21.8a2 2 0 0 1-1.987-1.769l-3.973.462a6 6 0 0 0 5.96 5.307v-4zm16.325-1.769a2 2 0 0 1-1.987 1.769v4a6 6 0 0 0 5.96-5.307l-3.973-.462zM22.508 2a2 2 0 0 1 1.986 2.231l3.973.462A6 6 0 0 0 22.507-2v4zM4.492-2a6 6 0 0 0-5.96 6.693l3.974-.462A2 2 0 0 1 4.492 2v-4z"/>
+        <path id="g" d="M-1 7a1 1 0 0 0 2 0h-2zm9 0a1 1 0 1 0 2 0H8zM1 5.106C1 2.716 2.682 1 4.5 1v-2C1.347-1-1 1.856-1 5.106h2zM4.5 1C6.318 1 8 2.716 8 5.106h2C10 1.856 7.653-1 4.5-1v2zM-1 5.106V7h2V5.106h-2zm9 0V7h2V5.106H8z"/>
+    </defs>
+</svg>

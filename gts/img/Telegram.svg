@@ -1,0 +1,44 @@
+<svg width="35" height="35" viewBox="0 0 35 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g data-name="Canvas" fill="none">
+<g data-name="Telegram">
+<g data-name="Telegram_logo">
+<g data-name="Vector">
+<use xlink:href="#path0" fill="url(#paint0_linear)"/>
+</g>
+<g data-name="Vector">
+<g transform="translate(11.957 11.6666)">
+<use xlink:href="#path1" fill="#C8DAEA"/>
+</g>
+</g>
+<g data-name="Vector">
+<g transform="translate(14.293 21.0593)">
+<use xlink:href="#path2" fill="#A9C9DD"/>
+</g>
+</g>
+<g data-name="Vector">
+<g transform="translate(7.13477 10.5262)">
+<use xlink:href="#path3" fill="url(#paint1_linear)"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+
+<linearGradient id="paint0_linear" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-8.75 20.4155 -20.4155 -8.75 33.5422 10.2095)">
+<stop stop-color="#37AEE2"/>
+<stop offset="1" stop-color="#1E96C8"/>
+</linearGradient>
+<linearGradient id="paint1_linear" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(3.64428 5.83389 -6.95553 3.05661 16.032 5.44523)">
+<stop stop-color="#EFF7FC"/>
+<stop offset="1" stop-color="white"/>
+</linearGradient>
+
+<path id="path0" d="M 17.5 35C 27.165 35 35 27.165 35 17.5C 35 7.83502 27.165 0 17.5 0C 7.83502 0 0 7.83502 0 17.5C 0 27.165 7.83502 35 17.5 35Z"/>
+<path id="path1" d="M 2.33333 13.8542C 1.76639 13.8542 1.86273 13.6401 1.6672 13.1003L 0 7.61336L 12.8333 0"/>
+<path id="path2" d="M 0 4.46148C 0.4375 4.46148 0.630802 4.2614 0.875 4.02398L 3.20833 1.7551L 0.297792 -3.38236e-07"/>
+<path id="path3" d="M 7.45518 10.5335L 14.5077 15.744C 15.3125 16.188 15.8933 15.9581 16.0938 14.9968L 18.9645 1.46887C 19.2584 0.290507 18.5153 -0.243944 17.7454 0.10559L 0.888538 6.60553C -0.262101 7.06705 -0.255393 7.70899 0.6788 7.99503L 5.00465 9.3452L 15.0195 3.02697C 15.4922 2.74027 15.9262 2.89441 15.57 3.21048"/>
+
+</defs>
+</svg>
+

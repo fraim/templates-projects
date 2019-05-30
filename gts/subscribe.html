@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>GO-TO-SPORT | Интернет-магазин</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="img/favicon.png">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<link rel="stylesheet" href="css/jquery.fancybox.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/mobile.css">
+</head>
+<body>
+	<a href="#email__popup__content" data-fancybox="email" class="mail__fixed fancybox">
+		<i class="fas fa-envelope"></i>
+		<div style="display: none;" id="email__popup__content">
+			<div class="popup__header">Получать рассылку</div>
+			<div class="popup__body">
+				<form id="popup__form" action="">
+					<div class="popup__text">Оставьте свой e-mail и мы сообщим Вам об акциях</div>
+					<div class="popup__input">
+						<input name="email" type="email" placeholder="Ваш e-mail" required>
+						<span>
+							<button for="#popup__form" class="popup__btn">Отправить</button>
+						</span>
+					</div>
+					<div class="popup__privacy">
+						<label>
+							<input class="popup__privacy__label" name="privacy" type="checkbox" checked value="Я согласен на использование моих персональных данных">
+							Cогласен на использование моих персональных данных
+						</label>
+					</div>
+				</form>
+			</div>
+		</div>
+	</a>
+	<div style="display: none;" id="basket__content">
+			<div class="popup__header">Добавлено в корзину</div>
+			<div class="popup__body busket__body">
+				<button id="basket__popu__link" class="busket__link">Перейти в корзину</button>
+				<button data-fancybox-close class="busket__link">Продолжить покупки</button>
+			</div>
+		</div>
+	<aside class="sidebar">
+		<div class="sidebar__menu">
+				<ul class="sidebar__menu__ul">
+					<li>
+						<a href="#" class="parent">Горнолыжная одежда<i class="fa fa-angle-down"></i></a>	
+						<ul>
+							<li>
+								<a href="#">Показать все</a>
+							</li>
+							<li>
+								<a href="#">Женщинам</a>
+							</li>
+							<li>
+								<a href="#">Мужчинам</a>
+							</li>
+							<li>
+								<a href="#">Детям</a>
+							</li>
+							<li>
+								<a href="#">Аксессуары</a>
+							</li>
+							<li>
+								<a href="#">Костюмы</a>
+							</li>
+							<li>
+								<a href="#">Куртки</a>
+							</li>
+							<li>
+								<a href="#">Штаны</a>
+							</li>
+							<li>
+								<a href="#">Комбинезоны</a>
+							</li>
+							<li>
+								<a href="#">Худи</a>
+							</li>
+						</ul>	
+					</li>
+					<li>
+						<a href="#">Зимняя одежда<i class="fa fa-angle-down"></i></a>	
+						<ul>
+							<li>
+								<a href="#">Показать все</a>
+							</li>
+							<li>
+								<a href="#">Женщинам</a>
+							</li>
+							<li>
+								<a href="#">Мужчинам</a>
+							</li>
+							<li>
+								<a href="#">Детям</a>
+							</li>
+							<li>
+								<a href="#">Костюмы</a>
+							</li>
+							<li>
+								<a href="#">Куртки</a>
+							</li>
+							<li>
+								<a href="#">Парки</a>
+							</li>
+						</ul>	
+					</li>
+					<li>
+						<a href="#">Весенняя одежда<i class="fa fa-angle-down"></i>		</a>	
+						<ul>
+							<li>
+								<a href="">Показать все</a>
+							</li>
+							<li>
+								<a href="#">Женщинам</a>
+							</li>
+							<li>
+								<a href="#">Мужчинам</a>
+							</li>
+							<li>
+								<a href="#">Детям</a>
+							</li>
+							<li>
+								<a href="#">Куртки</a>
+							</li>
+							<li>
+								<a href="#">Парки</a>
+							</li>
+							<li>
+								<a href="#">Анораки</a>
+							</li>
+							<li>
+								<a href="#">Ветровки</a>
+							</li>
+							<li>
+								<a href="#">Жилеты</a>
+							</li>
+							<li>
+								<a href="#">Костюмы</a>
+							</li>
+							<li>
+								<a href="#">Штаны</a>
+							</li>
+						</ul>
+					</li>	
+					<li>
+						<a href="#" class="parent">Обувь<i class="fa fa-angle-down"></i>		</a>	
+						<ul>
+							<li>
+								<a href="#">Показать все</a>
+							</li>
+							<li>
+								<a href="#">Женщинам</a>
+							</li>
+							<li>
+								<a href="#">Мужчинам</a>
+							</li>
+							<li>
+								<a href="#">Кроссовки для бега</a>
+							</li>
+							<li>
+								<a href="#">Кроссовки для фитнеса</a>
+							</li>
+							<li>
+								<a href="#">Кроссовки зимние</a>
+							</li>
+							<li>
+								<a href="#">Кроссовки летние</a>
+							</li>
+							<li>
+								<a href="#">Кроссовки повседневные</a>
+							</li>
+						</ul>	
+					</li>
+					<li>
+						<a href="#" class="parent">Термобелье и флис<i class="fa fa-angle-down"></i></a>	
+						<ul>
+							<li>
+								<a href="#">Показать все</a>
+							</li>
+							<li>
+								<a href="#">Женщинам</a>
+							</li>
+							<li>
+								<a href="#">Мужчинам</a>
+							</li>
+							<li>
+								<a href="#">Детям</a>
+							</li>
+							<li>
+								<a href="#">Костюмы</a>
+							</li>
+							<li>
+								<a href="#">Кофты</a>
+							</li>
+							<li>
+								<a href="#">Носки</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="#" class="parent">Туристическая одежда<i class="fa fa-angle-down"></i></a>	
+						<ul>
+							<li>
+								<a href="#">Показать все</a>
+							</li>
+							<li>
+								<a href="#">Женщинам</a>
+							</li>
+							<li>
+								<a href="#">Мужчинам</a>
+							</li>
+							<li>
+								<a href="#">Детям</a>
+							</li>
+							<li>
+								<a href="#">Куртки</a>
+							</li>
+							<li>
+								<a href="#">Костюмы</a>
+							</li>
+							<li>
+								<a href="#">Штаны</a>
+							</li>
+							<li>
+								<a href="#">Одежда софтшелл</a>
+							</li>
+							<li>
+								<a href="#">Куртки софтшелл</a>
+							</li>
+							<li>
+								<a href="#">Штаны софтшелл</a>
+							</li>
+						</ul>		
+					</li>			
+				</ul>
+		</div>
+		<div class="header__select__sity">
+						<a href="#sity__select" class="fancybox">
+							<span>Кемерово</span>
+							<i class="fas fa-angle-down"></i>
+							<div id="sity__select" style="display: none;">
+								<div class="row">
+									<div class="col-xs-12">
+										<div class="popup__header">Выберите свой город</div>
+										<div class="popup__select__sities">
+											<div class="row">
+												<div class="col-xs-12 col-md-4">
+													<div class="popup__select__sities__item"><a href="javascript:void(0)" class="sity__link">Москва</a></div>
+												</div>
+												<div class="col-xs-12 col-md-4">
+													<div class="popup__select__sities__item">
+													<a href="javascript:void(0)">Санкт-Петербург</a>
+													</div>
+												</div>
+												<div class="col-xs-12 col-md-4">
+													<div class="popup__select__sities__item">
+													<a href="javascript:void(0)">Сочи</a>
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-xs-12 col-md-4">
+													<div class="popup__select__sities__item"><a href="javascript:void(0)">Казань</a></div>
+												</div>
+												<div class="col-xs-12 col-md-4">
+													<div class="popup__select__sities__item"><a href="javascript:void(0)">Екатеринбург</a></div>
+												</div>
+											</div>
+										</div>
+										<div class="popup__body">
+											<form id="popup__form" action="">
+												<div class="popup__text popup__text__search">Не нашли свой город? Введите его в поле</div>
+												<div class="popup__input popup__search">
+													<input name="search" type="search" placeholder="Поиск вашего города" required>
+													<span>
+												</div>
+											</form>
+										</div>
+									</div>
+								</div>
+							</div>
+						</a>
+						<div>ул. Пр-т Октябрьский, 36</div>
+		</div>
+		<ul class="footer__list">
+			<li><a href="#">Каталог</a></li>
+			<li><a href="#">Доставка и оплата</a></li>
+			<li><a href="#">Полезная информация</a></li>
+			<li><a href="#">Обмен и возврат</a></li>
+			<li><a href="#">Бренды</a></li>
+			<li><a href="#">Контакты</a></li>
+			<li><a href="#">Политика конфиденциальности</a></li>
+		</ul>
+	</aside>
+	<a class="link__sale" href="index.html"></a>
+	<div class="container container__body">
+		<header class="header">
+			<div class="row">
+				<div class="col-xl-2 col-lg-3 col-md-3 col-sm-6 col-6">
+					<a href="index.html" class="logo"><img src="img/logo.png" alt="logo"></a>
+					<a href="#" class="mobile__bar"><i class="fas fa-bars"></i></a>
+					<a href="index.html" class="mobile__logo"><img src="img/logo_mobile.png"></a>
+				</div>
+				<div class="col-xl-2 col-lg-3 header__hidden-sm">
+					<div class="header__select__sity">
+						<a href="#sity__select" class="fancybox">
+							<span class="add__sity">Кемерово</span>
+							<i class="fas fa-angle-down"></i>
+							<div id="sity__select" style="display: none;">
+								<div class="row">
+									<div class="col-xs-12">
+										<div class="popup__header">Выберите свой город</div>
+										<div class="popup__select__sities">
+											<div class="row">
+												<div class="col-xs-12 col-md-4">
+													<div class="popup__select__sities__item"><a href="javascript:void(0)">Москва</a></div>
+												</div>
+												<div class="col-xs-12 col-md-4">
+													<div class="popup__select__sities__item">
+													<a href="javascript:void(0)">Санкт-Петербург</a>
+													</div>
+												</div>
+												<div class="col-xs-12 col-md-4">
+													<div class="popup__select__sities__item">
+													<a href="javascript:void(0)">Сочи</a>
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-xs-12 col-md-4">
+													<div class="popup__select__sities__item"><a href="javascript:void(0)">Казань</a></div>
+												</div>
+												<div class="col-xs-12 col-md-4">
+													<div class="popup__select__sities__item"><a href="javascript:void(0)">Екатеринбург</a></div>
+												</div>
+											</div>
+										</div>
+										<div class="popup__body">
+											<form id="popup__form" action="">
+												<div class="popup__text popup__text__search">Не нашли свой город? Введите его в поле</div>
+												<div class="popup__input popup__search">
+													<input name="search" type="search" placeholder="Поиск вашего города" required>
+													<span>
+												</div>
+											</form>
+										</div>
+									</div>
+								</div>
+							</div>
+						</a>
+						<div>ул. Пр-т Октябрьский, 36</div>
+					</div>
+				</div>
+				<div class="col-xl-2 col-lg-3 header__hidden-sm">
+					<div class="header__hidden__block"></div>
+				</div>
+				<div class="col-xl-2 col-lg-3 col-md-3 header__hidden__xs">
+					<div class="header__hidden__block"></div>
+				</div>
+				<div class="col-xl-2 col-lg-3 col-md-3 header__hidden__xs">
+					<div class="header__phone">
+						<div>Бесплатный звонок по России</div>
+						<a href="tel:8 800 775-70-31">8 800 775-70-31</a>
+					</div>
+				</div>
+				<div class="col-xl-2 col-lg-3 col-md-3 col-sm-6 col-6">
+					<div style="display: none;" class="mobile__catalog__menu__search__form">
+						<form id="menu__search" action>
+							<input class="mobile__search__input" type="search" placeholder="Поиск...">
+							<input for="#menu__search" class="mobile__search__submit" type="submit" value>
+						</form>
+					</div>
+					<div class="header__right">
+						<a class="header__likes fancybox"  href="#log__reg__popup">
+							<div id="log__reg__popup" style="display: none;">
+								<div class="log__popup">
+									<div class="popup__header">Вход</div>
+									<button type="button" class="reg__popup__link">Регистрация</button>
+									<div class="popup__body log__reg__body">
+										<form id="popup__form" action="">
+											<div class="popup__text log__reg__text">
+											Телефон или электронная почта</div>
+											<div class="popup__input input__reg__log">
+												<input name="login" type="text" placeholder="Введите телефон или почту" required>
+											</div>
+											<div class="popup__text log__reg__text">Пароль</div>
+											<div class="popup__input input__reg__log">
+												<input name="pass" type="password" placeholder="Пароль" required>
+											</div>
+											<span>
+												<button for="#popup__form" class="popup__btn log__btn">Войти</button>
+											</span>
+											<button type="button" class="pass__rem">Забыли пароль?</button>
+										</form>
+									</div>
+								</div>
+								<div class="pass__rem__popup" style="display: none;">
+									<div class="popup__header">Восстановление пароля</div>
+									<button type="button" class="reg__popup__link">Вход</button>
+									<div class="popup__body log__reg__body">
+										<form id="popup__form" action="">
+											<div class="popup__text log__reg__text">
+											Телефон или электронная почта</div>
+											<div class="popup__input input__reg__log">
+												<input name="login" type="text" placeholder="Введите телефон или почту" required>
+											</div>
+											<span>
+												<button for="#popup__form" class="popup__btn log__btn">Отправить</button>
+											</span>
+										</form>
+									</div>
+								</div>
+								<div class="reg__popup" style="display: none;">
+									<div class="popup__header">Регистрация</div>
+									<button type="button" class="reg__popup__link">Вход</button>
+									<div class="popup__body log__reg__body">
+										<form id="popup__form" action="">
+											<div class="popup__text log__reg__text">
+											Ваше имя</div>
+											<div class="popup__input input__reg__log">
+												<input name="name" type="text" placeholder="Имя" required>
+											</div>
+											<div class="popup__text log__reg__text">Ваш телефон</div>
+											<div class="popup__input input__reg__log">
+												<input name="tel" type="tel" placeholder="Телефон" required>
+											</div>
+											<div class="popup__text log__reg__text">Электронная почта</div>
+											<div class="popup__input input__reg__log">
+												<input name="email" type="email" placeholder="Электронная почта" required>
+											</div>
+											<div class="popup__text log__reg__text">Пароль</div>
+											<div class="popup__input input__reg__log">
+												<input name="pass" type="password" placeholder="Придумайте пароль" required>
+											</div>
+											<span>
+												<button for="#popup__form" class="popup__btn log__btn">Зарегистрироваться</button>
+											</span>
+										</form>
+									</div>
+								</div>
+							</div>
+						</a>
+						<a class="header__log fancybox"  href="#log__reg__popup" data-fancybox="log__reg"></a>
+						<div>
+							<a class="header__card" href="basket.html">
+								<div class="card__icon"><span></span></div>
+								<span>Моя корзина</span>
+								<div class="card__icon__total">0 руб</div>
+							</a>
+						</div>
+						<a href="javascript:void(0)" class="mobile__search"></a>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class="row menu">
+			<div class="col-xl-12">
+				<div class="catalog__menu">
+					<ul>
+						<li class="second__js__submenu">
+							<a href="catalog.html">Горнолыжная одежда</a>
+							<div class="catalog__submenu catalog__submenu__second">
+								<div class="row">
+									<div class="column">
+										<a href="#">Женщинам</a>
+										<ul>
+											<li><a href="#">Костюмы для женщин</a></li>
+											<li><a href="#">Куртки для женщин</a></li>
+											<li><a href="#">Штаны для женщин</a></li>
+											<li><a href="#">Комбинезоны для женщин</a></li>
+											<li><a href="#">Одежда больших размеров</a></li>
+										</ul>
+									</div>
+									<div class="column">
+										<a href="#">Мужчинам</a>
+										<ul>
+											<li><a href="#">Костюмы для мужчин</a></li>
+											<li><a href="#">Куртки для мужчин</a></li>
+											<li><a href="#">Штаны для мужчин</a></li>
+											<li><a href="#">Комбинезоны для мужчин</a></li>
+											<li><a href="#">Одежда больших размеров</a></li>
+											<li><a href="#">Худи для мужчин</a></li>
+										</ul>
+									</div>
+									<div class="column">
+										<a href="#">Детям</a>
+										<ul>
+											<li><a href="#">Комбинезоны для детей</a></li>
+											<li><a href="#">Костюмы для детей</a></li>
+											<li><a href="#">Куртки для детей</a></li>
+											<li><a href="#">Штаны для детей</a></li>
+										</ul>
+									</div>
+									<div class="column">
+										<a href="#">Аксессуары</a>
+										<ul>
+											<li><a href="#">Балаклавы</a></li>
+											<li><a href="#">Варежки</a></li>
+											<li><a href="#">Перчатки</a></li>
+											<li><a href="#">Шапки</a></li>
+											<li><a href="#">Шлемы</a></li>
+										</ul>
+									</div>
+									<div class="column alls">
+										<div>
+										<a href="#">Костюмы</a></div>
+										<div>
+										<a href="#">Куртки</a></div>
+										<div>
+										<a href="#">Штаны</a></div>
+										<div>
+										<a href="#">Комбинезоны</a></div>
+										<div>
+										<a href="#">Худи</a></div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="third__js__submenu">
+							<a href="#">Зимняя одежда</a>
+							<div class="catalog__submenu catalog__submenu__third">
+								<div class="row">
+									<div class="column">
+										<a href="#">Женщинам</a>
+										<ul>
+											<li><a href="#">Костюмы для женщин</a></li>
+											<li><a href="#">Куртки для женщин</a></li>
+											<li><a href="#">Парки для женщин</a></li>
+										</ul>
+									</div>
+									<div class="column">
+										<a href="#">Мужчинам</a>
+										<ul>
+											<li><a href="#">Костюмы для мужчин</a></li>
+											<li><a href="#">Куртки для мужчин</a></li>
+											<li><a href="#">Парки для мужчин</a></li>
+										</ul>
+									</div>
+									<div class="column">
+										<a href="#">Детям</a>
+										<ul>
+											<li><a href="#">Костюмы для детей</a></li>
+											<li><a href="#">Куртки для детей</a></li>
+											<li><a href="#">Парки для детей</a></li>
+										</ul>
+									</div>
+									<div class="column alls">
+										<div>
+										<a href="#">Костюмы</a></div>
+										<div>
+										<a href="#">Куртки</a></div>
+										<div>
+										<a href="#">Парки</a></div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="fourth__js__submenu">
+							<a href="#">Весенняя одежда</a>
+							<div class="catalog__submenu catalog__submenu__fourth">
+								<div class="row">
+									<div class="column">
+										<a href="#">Женщинам</a>
+										<ul>
+											<li><a href="#">Анораки для женщин</a></li>
+											<li><a href="#">Ветроки для женщин</a></li>
+											<li><a href="#">Жилеты для женщин</a></li>
+											<li><a href="#">Костюмы для женщин</a></li>
+											<li><a href="#">Куртки для женщин</a></li>
+											<li><a href="#">Парки для женщин</a></li>
+											<li><a href="#">Штаны для женщин</a></li>
+										</ul>
+									</div>
+									<div class="column">
+										<a href="#">Мужчинам</a>
+										<ul>
+											<li><a href="#">Анораки для мужчин</a></li>
+											<li><a href="#">Ветроки для мужчин</a></li>
+											<li><a href="#">Жилеты для мужчин</a></li>
+											<li><a href="#">Костюмы для мужчин</a></li>
+											<li><a href="#">Куртки для мужчин</a></li>
+											<li><a href="#">Штаны для мужчин</a></li>
+										</ul>
+									</div>
+									<div class="column">
+										<a href="#">Детям</a>
+										<ul>
+											<li><a href="#">Куртки для детей</a></li>
+										</ul>
+									</div>
+									<div class="column alls">
+										<div>
+										<a href="#">Куртки</a></div>
+										<div>
+										<a href="#">Парки</a></div>
+										<div>
+										<a href="#">Анораки</a></div>
+										<div>
+										<a href="#">Ветровки</a></div>
+										<div>
+										<a href="#">Жилеты</a></div>
+										<div>
+										<a href="#">Костюмы</a></div>
+										<div>
+										<a href="#">Штаны</a></div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="fourth__js__submenu">
+							<a href="#">Обувь</a>
+							<div class="catalog__submenu catalog__submenu__fourth">
+								<div class="row">
+									<div class="column">
+										<a href="#">Женщинам</a>
+										<ul>
+											<li><a href="#">Кроссовки</a></li>
+											<li><a href="#">Кроссовки для бега</a></li>
+											<li><a href="#">Кроссовки для фитнеса</a></li>
+										</ul>
+									</div>
+									<div class="column">
+										<a href="#">Мужчинам</a>
+										<ul>
+											<li><a href="#">Кроссовки</a></li>
+											<li><a href="#">Кроссовки для бега</a></li>
+											<li><a href="#">Кроссовки для фитнеса</a></li>
+										</ul>
+									</div>
+									<div class="column alls">
+										<div>
+										<a href="#">Кроссовки для бега</a></div>
+										<div>
+										<a href="#">Кроссовки для фитнеса</a></div>
+										<div>
+										<a href="#">Кроссовки зимние</a></div>
+										<div>
+										<a href="#">Кроссовки летние</a></div>
+										<div>
+										<a href="#">Кроссовки повседневные</a></div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="fifth__js__submenu">
+							<a href="#">Термобелье и флис</a>
+							<div class="catalog__submenu catalog__submenu__fifth">
+								<div class="row">
+									<div class="column">
+										<a href="#">Женщинам</a>
+										<ul>
+											<li><a href="#">Костюмы для женщин</a></li>
+											<li><a href="#">Кофты для женщин</a></li>
+											<li><a href="#">Носки для женщин</a></li>
+										</ul>
+									</div>
+									<div class="column">
+										<a href="#">Мужчинам</a>
+										<ul>
+											<li><a href="#">Костюмы для мужчин</a></li>
+											<li><a href="#">Кофты для мужчин</a></li>
+											<li><a href="#">Носки для мужчин</a></li>
+										</ul>
+									</div>
+									<div class="column">
+										<a href="#">Детям</a>
+										<ul>
+											<li><a href="#">Костюмы для детей</a></li>
+											<li><a href="#">Кофты для детей</a></li>
+										</ul>
+									</div>
+									<div class="column alls">
+										<div>
+										<a href="#">Костюмы</a></div>
+										<div>
+										<a href="#">Кофты</a></div>
+										<div>
+										<a href="#">Носки</a></div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="sixth__js__submenu">
+							<a href="#">Туристическая одежда</a>
+							<div class="catalog__submenu catalog__submenu__sixth">
+								<div class="row">
+									<div class="column">
+										<a href="#">Женщинам</a>
+										<ul>
+											<li><a href="#">Костюмы для женщин</a></li>
+											<li><a href="#">Куртки для женщин</a></li>
+											<li><a href="#">Куртки софтшелл для женщин</a></li>
+											<li><a href="#">Штаны для женщин</a></li>
+											<li><a href="#">Штаны софтшелл для женщин</a></li>
+										</ul>
+									</div>
+									<div class="column">
+										<a href="#">Мужчинам</a>
+										<ul>
+											<li><a href="#">Костюмы для мужчин</a></li>
+											<li><a href="#">Куртки для мужчин</a></li>
+											<li><a href="#">Куртки софтшелл для мужчин</a></li>
+											<li><a href="#">Штаны для мужчин</a></li>
+											<li><a href="#">Штаны софтшелл для мужчин</a></li>
+										</ul>
+									</div>
+									<div class="column">
+										<a href="#">Детям</a>
+										<ul>
+											<li><a href="#">Куртки для детей</a></li>
+										</ul>
+									</div>
+									<div class="column alls">
+										<div>
+										<a href="#">Куртки</a></div>
+										<div>
+										<a href="#">Костюмы</a></div>
+										<div>
+										<a href="#">Штаны</a></div>
+										<div>
+										<a href="#">Одежда софтшелл</a></div>
+										<div>
+										<a href="#">Куртки софтшелл</a></div>
+										<div>
+										<a href="#">Штаны софтшелл</a></div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li><a class="catalog__menu__search" href="#"></a></li>
+					</ul>
+					<div style="display: none;" class="catalog__menu__search__form">
+						<form id="menu__search" action>
+							<input class="search__input" type="search" placeholder="Поиск...">
+							<input for="#menu__search" class="search__submit" type="submit" value>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xl-12">
+				<a href="catalog.html" class="back__catalog">Назад в каталог</a>
+			</div>
+			<div class="col-xl-12">
+				<h1 class="profile__headline">Личный кабинет</h1>
+			</div>
+			<div class="col-xl-12">
+				<div class="row">
+					<div class="col-xl-3 col-lg-3 col-md-3">
+						<aside class="profile__sidebar-mobile">
+							<div class="profile__sidebar">
+								<a class="profile__sidebar-active" href="#">Подписки <i class="fas fa-angle-down"></i></a>
+								<nav>
+									<ul>
+										<li><a href="profile.html">Профиль</a></li>
+										<li><a href="list.html">Лист пожеланий</a></li>
+										<li><a href="orders.html">Заказы</a><span class="counter">1</span></li>
+										<li><a href="balance.html">Баланс</a></li>
+										<li><a href="invite.html">Приведи друга</a></li>
+										<li><a href="list.html">Мой лист ожидания</a></li>
+									</ul>
+								</nav>
+							</div>
+						</aside>
+						<div class="profile__sidebar">
+							<nav>
+								<ul>
+									<li><a href="profile.html">Профиль</a></li>
+									<li><a href="list.html">Лист пожеланий</a></li>
+									<li><a href="orders.html">Заказы</a><span class="counter">1</span></li>
+									<li><a class="profile__sidebar-active" href="subscribe.html">Подписки</a></li>
+									<li><a href="balance.html">Баланс</a></li>
+									<li><a href="invite.html">Приведи друга</a></li>
+									<li><a href="list.html">Мой лист ожидания</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+					<div class="col-xl-7 col-lg-9 col-md-9">
+						<div class="profile__info">
+							<div class="profile__info__title">Подписки</div>
+							<div class="profile__info__subscribe">
+								<div class="profile__info__subscribe__checkboxs">
+									<div class="profile__info__subscribe__checkbox">
+										<input type="checkbox" name="infospec" id="infospec">
+										<label for="infospec">Информация о специальных предложениях</label>
+									</div>
+									<div class="profile__info__subscribe__checkbox">
+										<input type="checkbox" name="trend" id="trend">
+										<label for="trend">Тренды для мужчин</label><br>
+									</div>
+									<div class="profile__info__subscribe__checkbox">
+										<input type="checkbox" name="rec" id="rec">
+										<label for="rec">Советы по уходу за одеждой</label>
+									</div>
+									<div class="profile__info__subscribe__checkbox">
+										<input type="checkbox" name="trendwoman" id="trendwoman">
+										<label for="trendwoman">Тренды для женщин</label>
+									</div>
+								</div>
+								<a href="#" class="profile__info__subscribe-btn">Сохранить</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</span>
+</div>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-3 col-md-3">
+					<img src="img/logo.png" alt="">
+					<div class="footer__cop">© 2011-2019</div>
+				</div>
+				<div class="col-xl-9 col-md-9">
+					<div class="row">
+						<div class="col-xl-3 col-md-3">
+							<ul class="footer__list">
+								<li><a href="#">Каталог</a></li>
+								<li><a href="#">Доставка и оплата</a></li>
+								<li><a href="#">Полезная информация</a></li>
+								<li><a href="#">Обмен и возврат</a></li>
+								<li><a href="#">Бренды</a></li>
+								<li><a href="#">Контакты</a></li>
+								<li><a href="#">Политика конфиденциальности</a></li>
+							</ul>
+						</div>
+						<div class="col-xl-3 col-md-3">
+							<div class="footer__mail">
+								<a href="mailto:order@go-to-sport.ru">order@go-to-sport.ru</a>
+							</div>
+							<div class="footer__card">
+								Способы оплаты
+							</div>
+							<div class="footer__card__icon">
+								<img src="img/master_payment.png" alt="">
+								<img src="img/visa_payment.png" alt="">
+							</div>
+						</div>
+						<div class="col-xl-3 col-md-3">
+							<div class="footer__phone">
+								<div>Бесплатный звонок по России</div>
+								<a href="tel:8 800 775-70-31">8 800 775-70-31</a>
+							</div>
+							<div class="footer__street">
+								Кемерово, ул. Пр-т Октябрьский, 36
+							</div>
+						</div>
+						<div class="col-xl-3 col-md-3">
+							<div class="footer__social">
+								<div class="footer__social__share">
+									Поделиться
+									<div>
+										<a href="#"><img src="img/vk__share.png" alt=""></a>
+										<a href="#"><img src="img/facebook__share.png" alt=""></a>
+										<a href="#"><img src="img/ok__share.png" alt=""></a>
+									</div>
+								</div>
+								<div class="footer__social__group">
+									Мы в социальных сетях
+									<div>
+										<a href="#"><i class="fab fa-vk"></i></a>
+										<a href="#"><i class="fab fa-facebook-f"></i></a>
+										<a href="#"><i class="fab fa-instagram"></i></a>
+										<a href="#"><i class="fab fa-youtube"></i></a>
+									</div>
+								</div>
+								<div class="footer__social__communication">
+									Обратная связь
+									<div>
+										<a href="#"><img src="img/Telegram.svg" alt=""></a>
+										<a href="#"><img src="img/Whatsapp.svg" alt=""></a>
+										<a href="#"><img src="img/Facebook.svg" alt=""></a>
+										<a href="#"><img src="img/viber.svg" alt=""></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="js/jquery.fancybox.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>

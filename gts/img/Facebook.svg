@@ -1,0 +1,28 @@
+<svg width="35" height="35" viewBox="0 0 35 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g data-name="Canvas" fill="none">
+<g data-name="Facebook">
+<g data-name="Facebook_Messenger_logo">
+<g data-name="Vector">
+<use xlink:href="#path0" fill="url(#paint0_linear)"/>
+</g>
+<g data-name="Vector">
+<g transform="translate(6.19336 11.7657)">
+<use xlink:href="#path1" fill="white"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+
+<linearGradient id="paint0_linear" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0 31.094 -31.094 0 33.047 2.366)">
+<stop stop-color="#00C6FF"/>
+<stop offset="1" stop-color="#0068FF"/>
+</linearGradient>
+
+<path id="path0" d="M 6.44609 28.7666L 6.44609 35L 12.3194 31.6864C 13.9566 32.1547 15.6969 32.4074 17.5 32.4074C 27.1656 32.4074 35 25.1522 35 16.2037C 35 7.25461 27.1656 0 17.5 0C 7.835 0 0 7.25461 0 16.2037C 0 21.271 2.51219 25.7957 6.44609 28.7666Z"/>
+<path id="path1" d="M 9.43766 -2.5553e-07L -9.53674e-09 9.91636L 8.58906 5.23977L 13.0767 9.91636L 22.4611 -2.5553e-07L 13.9673 4.59472L 9.43766 -2.5553e-07Z"/>
+
+</defs>
+</svg>
+

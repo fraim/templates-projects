@@ -1,0 +1,654 @@
+@media (min-width: 0px) and (max-width: 768px){
+	.fancybox-content{
+		width: 100%;
+		margin-top: 10px;
+	}
+	.footer__list{
+		width: 100%;
+	}
+	.link__sale{
+		display: none;
+	}
+	.container__body{
+		top: 0;
+	}
+	.menu{
+		display: none;
+	}
+	.header__hidden-sm{
+		display: none !important;
+	}
+	.header__card .card__icon{
+		position: relative;
+		top: -7px;
+	}
+	.header__card > span{
+		display: none;
+	}
+	.header__card div:last-child{
+		display: none;
+	}
+	.mobile__search{
+		display: inline-block;
+		background: url(../img/ic_search_black_24px.png) no-repeat center top;
+	    height: 25px;
+	    width: 25px;
+	    position: relative;
+	    top: 3px;
+	}
+	.mobile__search__input input{
+		position: absolute;
+	}
+	.header__right {
+	    width: 100%;
+    	float: right;
+    	margin-top: 8px;
+    	text-align: right;
+	}
+	.logo{
+		display: none;
+	}
+	.mobile__logo{
+		display: inline-block;
+		vertical-align: top;
+    	margin-top: 10px;
+	}
+	.mobile__bar{
+		display: inline-block;
+	}
+	.mobile__bar i{
+		float: left;
+	    margin: 10px 5px 0 0;
+	    font-size: 26px;
+	    line-height: 1;
+	    color: #2d5fa3;
+	    cursor: pointer;
+	    display: block;
+	}
+	.mobile__position{
+		display: flex;
+  		flex-flow: column;
+	}
+	.items{
+		margin-bottom: 50px;
+	}
+	.benefits_block{
+		order: 2;
+	}
+	.carousel__block{
+		order: 1;
+		margin-bottom: 20px;
+	}
+	.header__phone{
+		margin-left: 0;
+	}
+	.header__phone div{
+		width: 100%;
+	}
+	.owl-carousel .item .carousel-text{
+		left: 30px;
+    	top: 15px;
+	}
+	.owl-carousel .item .carousel-text .title{
+		font-size: 23px;
+    	line-height: 1.2;
+    	width: 240px;
+    }
+    .owl-carousel .item .carousel-text .text{
+    	font-size: 20px;
+    	line-height: 1.2;
+    	width: 240px;
+    }
+    .owl-carousel .item .carousel-text a{
+    	padding: 0 13px;
+    }
+    .owl-carousel .item img{
+    	height: 265px;
+    }
+    .header__hidden__xs{
+    	display: none;
+    }
+    .owl-carousel .item img{
+    	object-fit: cover;
+    }
+    .reg__popup__link{
+    	margin-left: 0px;
+    	position: absolute;
+		top: 18px;
+		right: 10px;
+    }
+    .log__btn{
+    	padding: 5px 10px;
+    	font-size: 15px;
+    }
+    .pass__rem{
+    	font-size: 12px;
+    	margin-left: 10px;
+    }
+    .popup__header{
+		font-size: 22px;
+    	padding: 30px 10px 0px 30px;
+    }
+    .popup__text{
+    	font-size: 12px;
+    }
+    .popup__privacy label{
+    	font-size: 12px;
+    }
+    .popup__input .popup__btn{
+    	font-size: 12px
+    }
+    .popup__input input{
+    	height: 45px;
+    }
+    .busket__body {
+	    padding: 20px 30px;
+	    text-align: center;
+	}
+	.busket__link{
+		margin-bottom: 10px;
+	}
+	.container{
+		max-width: 100%;
+	}
+	.catalog{
+		display: none
+	}
+	.catalog__mobile{
+		display: block;
+	}
+	.catalog__filter{
+		display: none;
+	}
+	.catalog__mobile__title{
+		padding-left: 10px;
+	}
+	.catalog__mobile__nav__title{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.catalog__mobile__nav__menu ul{
+		margin: 0;
+		margin-left: 10px;
+	}
+	.col-12{
+		padding: 0;
+	}
+	.catalog__mobile__filter__title{
+	    display: block;
+	}
+	.catalog__mobile__filter__menu{
+	    display: block;
+	}
+	.title-lg{
+		display: block;
+	}
+	.clothes__slider__label{
+		display: none;
+	}
+	.clothes__withthis__slider__item:last-child , .clothes__accessories__slider__item:last-child{
+		display: none;
+	}
+	.clothes__withthis__slider__item{
+		margin-right: 14px;
+    	max-width: 110px;
+	}
+	.clothes__accessories__slider__item{
+		margin-right: 14px;
+    	max-width: 110px;
+	}
+	.clothes__info__way{
+		margin-top: 20px;
+	}
+	.clothes__down__img{
+		text-align: center;
+	}
+	.mobile__way{
+		display: block;
+	}
+	.want__cheaper__title{
+		padding: 0;
+	}
+	#table__sizes{
+		width: 100%;
+	}
+	.clothes__buy a:last-child{
+		margin-top: 20px;
+	}
+	#fitting, #tradein{
+		width: 100%;
+	}
+	#fitting .want__cheaper__title, #tradein .want__cheaper__title{
+		padding: 10px;
+	}
+	.clothes__accessories__slider__item{
+		display: none;
+		margin: 15px;
+	}
+	.clothes__accessories__slider__item:nth-child(1){
+		display: inline-block;
+	}
+	.clothes__accessories__slider__item:nth-child(2){
+		display: inline-block;
+	}
+	.clothes__accessories__slider__arrows-next{
+		margin-right: 10px;
+	}
+	.clothes__accessories__slider__arrows-prev{
+		margin-left: 10px;
+	}
+	.clothes__accessories__slider__items-active, .clothes__withthis__slider__items-active{
+		text-align: center;
+	}
+	.clothes__withthis__slider__item{
+		display: none;
+		margin: 15px;
+	}
+	.clothes__withthis__slider__item:nth-child(1){
+		display: inline-block;
+	}
+	.clothes__withthis__slider__item:nth-child(2){
+		display: inline-block;
+	}
+	.clothes__withthis__slider__arrows-next{
+		margin-right: 10px;
+	}
+	.clothes__withthis__slider__arrows-prev{
+		margin-left: 10px;
+	}
+	.profile__headline{
+		font-size: 16px;
+	 	font-weight: 600;
+	  	line-height: 1.25;
+	  	color: #343434;
+	  	padding: 15px 20px;
+	  	width: 100%;
+	  	background: #f0f0f0;
+	}
+	.back__catalog{
+		display: none;
+	}
+	.profile__sidebar{
+		display: none;
+		margin-top: 5px;
+	}
+	.profile__sidebar-mobile{
+		display: block;
+	}
+	.profile__info__input{
+		width: 100% !important;
+	}
+	.profile__info{
+		margin-top: 25px;
+	}
+	.profile__sidebar-mobile .profile__sidebar-active{
+		display: inline-block;
+		font-size: 14px;
+  		font-weight: normal;
+  		font-style: normal;
+  		font-stretch: normal;
+  		line-height: 1.43;
+  		letter-spacing: normal;
+  		color: #343434;
+  		padding-left: 15px;
+  		margin-bottom: 5px;
+	}
+	.profile__sidebar-mobile .profile__sidebar-active:before{
+		content: '';
+		position: absolute;
+		bottom: -10px;
+		left: 0;
+		width: 100%;
+		height: 1px;
+		background-color: #ececec;
+	}
+	.profile__sidebar-mobile .profile__sidebar{
+		display: block;
+	}
+	.profile__sidebar-mobile nav{
+		position: relative;
+		display: none;
+	}
+	.profile__sidebar-mobile .active{
+		display: block;
+	}
+	.profile__info__subscribe__checkboxs{
+		grid-template-columns: 1fr;
+	}
+	.profile__info__subscribe__checkboxs label{
+		font-size: 10px;
+	}
+	.profile__info__title{
+		margin-top: 20px;
+	}
+	.profile__info__email-label{
+		display: block;
+	}
+	.profile__info-friend{
+		margin-left: 0;
+	}
+	.profile__info__copy{
+		margin-left: 0;
+	}
+	.profile__info__email{
+		display: inline-block;
+		margin-left: 0;
+	}
+	.profile__info__replenish__method label{
+		font-size: 12px;
+	}
+	.profile__info__replenish__cash-btn{
+		margin-left: 0px;
+		border-radius: 5px;
+	}
+	.profile__info__replenish__cash{
+		display: block;
+	}
+	.btn__reg{
+		margin-left: 0;
+	}
+	.profile__info-user label{
+		width: auto;
+	}
+	.profile__info__delivery ul{
+		margin-bottom: 25px;
+	}
+	.profile__info__delivery ul li{
+		display: block;
+	}
+	.profile__info__delivery ul li input[type="radio"]{
+		margin-left: 0;
+		margin-bottom: 30px;
+	}
+	.comment__reg{
+		width: 100%;
+	}
+	.reg__ofert{
+		display: block;
+		margin: 0;
+		margin-top: 10px;
+	}
+	.profile__info__delivery select{
+		width: 100%;
+	}
+	.registration__title{
+		height: auto;
+		font-size: 30px;
+		margin-bottom: 5px;
+	}
+}
+@media (min-width: 768px) and (max-width: 992px){ 
+	.link__sale{
+		display: none;
+	}
+	.container__body{
+		top: 0;
+	}
+	.menu{
+		display: none;
+	}
+	.header__hidden-sm{
+		display: none !important;
+	}
+	.header__card .card__icon{
+		position: relative;
+		top: -7px;
+	}
+	.header__card > span{
+		display: none;
+	}
+	.header__card div:last-child{
+		display: none;
+	}
+	.mobile__search{
+		display: inline-block;
+		background: url(../img/ic_search_black_24px.png) no-repeat center top;
+	    height: 25px;
+	    width: 25px;
+	    position: relative;
+	    top: 3px;
+	}
+	.mobile__search__input input{
+		position: absolute;
+	}
+	.header__right {
+	    width: 121%; 
+	   	text-align: right;
+	   	margin-top: 10px;
+    	margin-left: -25px;
+	}
+	.logo{
+		display: none;
+	}
+	.mobile__logo{
+		display: inline-block;
+		vertical-align: top;
+    	margin-top: 10px;
+	}
+	.mobile__bar{
+		display: inline-block;
+	}
+	.mobile__bar i{
+		float: left;
+	    margin: 10px 5px 0 0;
+	    font-size: 26px;
+	    line-height: 1;
+	    color: #2d5fa3;
+	    cursor: pointer;
+	    display: block;
+	}
+	.mobile__position{
+		display: flex;
+  		flex-flow: column;
+	}
+	.items{
+		margin-bottom: 50px;
+	}
+	.benefits_block{
+		order: 2;
+	}
+	.carousel__block{
+		order: 1;
+		margin-bottom: 20px;
+	}
+	.header__phone{
+		margin-left: 0;
+	}
+	.header__phone div{
+		width: 121%;
+		line-height: 20px;
+	}
+	.owl-carousel .item .carousel-text{
+		left: 30px;
+    	top: 15px;
+	}
+	.owl-carousel .item .carousel-text .title{
+		font-size: 23px;
+    	line-height: 1.2;
+    	width: 240px;
+    }
+    .owl-carousel .item .carousel-text .text{
+    	font-size: 20px;
+    	line-height: 1.2;
+    	width: 240px;
+    }
+    .owl-carousel .item .carousel-text a{
+    	padding: 0 13px;
+    }
+    .owl-carousel .item img{
+    	height: 265px;
+    }
+	.catalog{
+		display: none
+	}
+	.catalog__mobile{
+		display: block;
+	}
+	.catalog__filter{
+		display: none;
+	}
+
+	.title-lg{
+		display: block;
+	}
+	.clothes__slider__label{
+		display: none;
+	}
+	.clothes__withthis__slider__item:last-child , .clothes__accessories__slider__item:last-child{
+		display: none;
+	}
+	.clothes__withthis__slider__item{
+		margin-right: 14px;
+    	max-width: 110px;
+	}
+	.clothes__accessories__slider__item{
+		margin-right: 14px;
+    	max-width: 110px;
+	}
+	.clothes__info__way{
+		margin-top: 20px;
+	}
+	.profile__info{
+		margin-top: 25px;
+	}
+	.profile__sidebar-mobile .profile__sidebar-active{
+		display: inline-block;
+		font-size: 14px;
+  		font-weight: normal;
+  		font-style: normal;
+  		font-stretch: normal;
+  		line-height: 1.43;
+  		letter-spacing: normal;
+  		color: #343434;
+  		padding-left: 15px;
+  		margin-bottom: 5px;
+	}
+	.profile__sidebar-mobile .profile__sidebar-active:before{
+		content: '';
+		position: absolute;
+		bottom: -10px;
+		left: 0;
+		width: 100%;
+		height: 1px;
+		background-color: #ececec;
+	}
+	.profile__sidebar-mobile .profile__sidebar{
+		display: block;
+	}
+	.profile__sidebar-mobile nav{
+		position: relative;
+		display: none;
+	}
+	.profile__sidebar-mobile .active{
+		display: block;
+	}
+	.profile__info__subscribe__checkboxs{
+		grid-template-columns: 1fr;
+	}
+	.profile__info__replenish-title{
+		width: 100px;
+	}
+	.history__rub-date{
+		margin-right: 10px;
+	}
+	.history__rub-title{
+		margin-right: 30px;
+	}
+	.history__bonus .history__rub-title{
+		margin-right: 95px;
+	}
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+	hr{
+		margin: 15px 0;
+	}
+	.link__sale{
+		display: none;
+	}
+	.container__body{
+		top: 0;
+	}
+	.menu{
+		display: none;
+	}
+	.header__phone{
+		margin-left: 0;
+	}
+	.header__hidden-sm{
+		display: none !important;
+	}
+	.header__card .card__icon{
+		position: relative;
+		top: -7px;
+	}
+	.header__card > span{
+		display: none;
+	}
+	.header__card div:last-child{
+		display: none;
+	}
+	.mobile__search{
+		display: inline-block;
+		background: url(../img/ic_search_black_24px.png) no-repeat center top;
+	    height: 25px;
+	    width: 25px;
+	    position: relative;
+	    top: 3px;
+	}
+	.mobile__search__input input{
+		position: absolute;
+	}
+	.header__right {
+	    width: 60%; 
+	    float: right;
+	}
+	.logo{
+		display: none;
+	}
+	.mobile__logo{
+		display: inline-block;
+		vertical-align: top;
+    	margin-top: 10px;
+	}
+	.mobile__bar{
+		display: inline-block;
+	}
+	.mobile__bar i{
+		float: left;
+	    margin: 10px 15px 0 0;
+	    font-size: 26px;
+	    line-height: 1;
+	    color: #2d5fa3;
+	    cursor: pointer;
+	    display: block;
+	}
+	.mobile__position{
+		display: flex;
+  		flex-flow: column;
+	}
+	.items{
+		margin-bottom: 35px;
+	}
+	.benefits_block{
+		order: 2;
+	}
+	.carousel__block{
+		order: 1;
+		margin-bottom: 20px;
+	}
+	.catalog{
+		display: none
+	}
+	.catalog__mobile{
+		display: block;
+	}
+	.clothes__withthis__slider__item{
+		margin-right: 10px;
+	}
+	.clothes__accessories__slider__item{
+		margin-right: 10px;
+	}
+	.title-lg{
+		display: block;
+	}
+}

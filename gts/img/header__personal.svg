@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="25" viewBox="0 0 24 25">
+    <desc>
+        Created using Figma
+    </desc>
+    <use fill="#2D5FA3" transform="translate(.064) scale(.97296)" xlink:href="#a"/>
+    <defs>
+        <path id="a" fill-rule="evenodd" d="M12.333 0C5.525 0 0 5.6 0 12.5S5.525 25 12.333 25c6.809 0 12.334-5.6 12.334-12.5S19.142 0 12.333 0zm0 3.75c2.047 0 3.7 1.675 3.7 3.75s-1.653 3.75-3.7 3.75c-2.048 0-3.7-1.675-3.7-3.75s1.652-3.75 3.7-3.75zm-7.4 13.725C6.525 19.9 9.25 21.5 12.335 21.5c3.083 0 5.809-1.6 7.4-4.025-.038-2.488-4.946-3.85-7.4-3.85-2.467 0-7.363 1.363-7.4 3.85z"/>
+    </defs>
+</svg>
